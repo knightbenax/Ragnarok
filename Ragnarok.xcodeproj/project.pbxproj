@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		EFC2B6A324BA5805007DCC8F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC2B6A224BA5805007DCC8F /* AppDelegate.swift */; };
-		EFC2B6A524BA5805007DCC8F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC2B6A424BA5805007DCC8F /* SceneDelegate.swift */; };
 		EFC2B6A724BA5805007DCC8F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC2B6A624BA5805007DCC8F /* ViewController.swift */; };
 		EFC2B6AA24BA5805007DCC8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFC2B6A824BA5805007DCC8F /* Main.storyboard */; };
 		EFC2B6AC24BA5808007DCC8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFC2B6AB24BA5808007DCC8F /* Assets.xcassets */; };
@@ -37,7 +36,6 @@
 /* Begin PBXFileReference section */
 		EFC2B69F24BA5805007DCC8F /* Ragnarok.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ragnarok.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFC2B6A224BA5805007DCC8F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EFC2B6A424BA5805007DCC8F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		EFC2B6A624BA5805007DCC8F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EFC2B6A924BA5805007DCC8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EFC2B6AB24BA5808007DCC8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -100,7 +98,6 @@
 			isa = PBXGroup;
 			children = (
 				EFC2B6A224BA5805007DCC8F /* AppDelegate.swift */,
-				EFC2B6A424BA5805007DCC8F /* SceneDelegate.swift */,
 				EFC2B6A624BA5805007DCC8F /* ViewController.swift */,
 				EFC2B6A824BA5805007DCC8F /* Main.storyboard */,
 				EFC2B6AB24BA5808007DCC8F /* Assets.xcassets */,
@@ -261,7 +258,6 @@
 			files = (
 				EFC2B6A724BA5805007DCC8F /* ViewController.swift in Sources */,
 				EFC2B6A324BA5805007DCC8F /* AppDelegate.swift in Sources */,
-				EFC2B6A524BA5805007DCC8F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +433,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KPGYDGPJU8;
 				INFOPLIST_FILE = Ragnarok/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -455,6 +452,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KPGYDGPJU8;
 				INFOPLIST_FILE = Ragnarok/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
