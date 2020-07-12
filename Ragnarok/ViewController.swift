@@ -20,8 +20,14 @@ class ViewController: UIViewController, AVCaptureMetadataOutputObjectsDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        switchCamera()
+        initializeEngine()
         createSession()
+    }
+    
+    func initializeEngine(){
+        switchCamera()
+        ///prevent phone from going to sleep while app is running
+        UIApplication.shared.isIdleTimerDisabled = true
     }
     
     override func viewDidAppear(_ animated: Bool) {
