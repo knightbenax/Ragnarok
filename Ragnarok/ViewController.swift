@@ -57,6 +57,12 @@ class ViewController: UIViewController, AVCaptureMetadataOutputObjectsDelegate {
         session = AVCaptureSession()
         device = AVCaptureDevice.default(for: AVMediaType.video)
         
+        if (device!.isFocusModeSupported(.continuousAutoFocus)){
+            try! device?.lockForConfiguration()
+            device?.focusMode = .continuousAutoFocus
+            device?.unlockForConfiguration()
+        }
+        
         do{
             input = try AVCaptureDeviceInput(device: device!)
         }
