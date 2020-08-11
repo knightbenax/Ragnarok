@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF714BB224E2B13800EAED5B /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF714BB124E2B13800EAED5B /* BaseViewController.swift */; };
 		EFC2B6A324BA5805007DCC8F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC2B6A224BA5805007DCC8F /* AppDelegate.swift */; };
-		EFC2B6A724BA5805007DCC8F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC2B6A624BA5805007DCC8F /* ViewController.swift */; };
+		EFC2B6A724BA5805007DCC8F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC2B6A624BA5805007DCC8F /* MainViewController.swift */; };
 		EFC2B6AA24BA5805007DCC8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFC2B6A824BA5805007DCC8F /* Main.storyboard */; };
 		EFC2B6AC24BA5808007DCC8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFC2B6AB24BA5808007DCC8F /* Assets.xcassets */; };
 		EFC2B6AF24BA5808007DCC8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFC2B6AD24BA5808007DCC8F /* LaunchScreen.storyboard */; };
@@ -34,9 +35,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EF714BB124E2B13800EAED5B /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		EFC2B69F24BA5805007DCC8F /* Ragnarok.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ragnarok.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFC2B6A224BA5805007DCC8F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EFC2B6A624BA5805007DCC8F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EFC2B6A624BA5805007DCC8F /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		EFC2B6A924BA5805007DCC8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EFC2B6AB24BA5808007DCC8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EFC2B6AE24BA5808007DCC8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -74,6 +76,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EF714BAF24E2B0E800EAED5B /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				EFC2B6A224BA5805007DCC8F /* AppDelegate.swift */,
+				EF714BB124E2B13800EAED5B /* BaseViewController.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		EF714BB024E2B0F900EAED5B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EF714BB424E2B17400EAED5B /* Launchscreen */,
+				EF714BB324E2B16900EAED5B /* Home */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EF714BB324E2B16900EAED5B /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				EFC2B6A824BA5805007DCC8F /* Main.storyboard */,
+				EFC2B6A624BA5805007DCC8F /* MainViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		EF714BB424E2B17400EAED5B /* Launchscreen */ = {
+			isa = PBXGroup;
+			children = (
+				EFC2B6AD24BA5808007DCC8F /* LaunchScreen.storyboard */,
+			);
+			path = Launchscreen;
+			sourceTree = "<group>";
+		};
 		EFC2B69624BA5805007DCC8F = {
 			isa = PBXGroup;
 			children = (
@@ -97,11 +134,9 @@
 		EFC2B6A124BA5805007DCC8F /* Ragnarok */ = {
 			isa = PBXGroup;
 			children = (
-				EFC2B6A224BA5805007DCC8F /* AppDelegate.swift */,
-				EFC2B6A624BA5805007DCC8F /* ViewController.swift */,
-				EFC2B6A824BA5805007DCC8F /* Main.storyboard */,
+				EF714BAF24E2B0E800EAED5B /* Core */,
+				EF714BB024E2B0F900EAED5B /* Views */,
 				EFC2B6AB24BA5808007DCC8F /* Assets.xcassets */,
-				EFC2B6AD24BA5808007DCC8F /* LaunchScreen.storyboard */,
 				EFC2B6B024BA5808007DCC8F /* Info.plist */,
 			);
 			path = Ragnarok;
@@ -256,8 +291,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EFC2B6A724BA5805007DCC8F /* ViewController.swift in Sources */,
+				EFC2B6A724BA5805007DCC8F /* MainViewController.swift in Sources */,
 				EFC2B6A324BA5805007DCC8F /* AppDelegate.swift in Sources */,
+				EF714BB224E2B13800EAED5B /* BaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,7 +8,7 @@
 import UIKit
 import AVFoundation
 
-class ViewController: UIViewController, AVCaptureMetadataOutputObjectsDelegate {
+class MainViewController: BaseViewController, AVCaptureMetadataOutputObjectsDelegate {
     
     @IBOutlet weak var cameraView: UIView!
     
