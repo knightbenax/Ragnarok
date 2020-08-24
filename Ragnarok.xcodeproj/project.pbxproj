@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		EF714BB224E2B13800EAED5B /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF714BB124E2B13800EAED5B /* BaseViewController.swift */; };
+		EF714BCA24E3F20300EAED5B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF714BC924E3F20300EAED5B /* AppDelegate.swift */; };
+		EF714BCC24E3F20300EAED5B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF714BCB24E3F20300EAED5B /* ViewController.swift */; };
+		EF714BCF24E3F20300EAED5B /* RagnarokMacOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EF714BCD24E3F20300EAED5B /* RagnarokMacOS.xcdatamodeld */; };
+		EF714BD124E3F20400EAED5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF714BD024E3F20400EAED5B /* Assets.xcassets */; };
+		EF714BD424E3F20400EAED5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF714BD224E3F20400EAED5B /* Main.storyboard */; };
+		EF714BE024E3F20400EAED5B /* RagnarokMacOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF714BDF24E3F20400EAED5B /* RagnarokMacOSTests.swift */; };
+		EF714BEB24E3F20500EAED5B /* RagnarokMacOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF714BEA24E3F20500EAED5B /* RagnarokMacOSUITests.swift */; };
 		EFC2B6A324BA5805007DCC8F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC2B6A224BA5805007DCC8F /* AppDelegate.swift */; };
 		EFC2B6A724BA5805007DCC8F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC2B6A624BA5805007DCC8F /* MainViewController.swift */; };
 		EFC2B6AA24BA5805007DCC8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFC2B6A824BA5805007DCC8F /* Main.storyboard */; };
@@ -18,6 +25,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		EF714BDC24E3F20400EAED5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFC2B69724BA5805007DCC8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF714BC624E3F20300EAED5B;
+			remoteInfo = RagnarokMacOS;
+		};
+		EF714BE724E3F20500EAED5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFC2B69724BA5805007DCC8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF714BC624E3F20300EAED5B;
+			remoteInfo = RagnarokMacOS;
+		};
 		EFC2B6B624BA5809007DCC8F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = EFC2B69724BA5805007DCC8F /* Project object */;
@@ -36,6 +57,20 @@
 
 /* Begin PBXFileReference section */
 		EF714BB124E2B13800EAED5B /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		EF714BC724E3F20300EAED5B /* RagnarokMacOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RagnarokMacOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF714BC924E3F20300EAED5B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF714BCB24E3F20300EAED5B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EF714BCE24E3F20300EAED5B /* RagnarokMacOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RagnarokMacOS.xcdatamodel; sourceTree = "<group>"; };
+		EF714BD024E3F20400EAED5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF714BD324E3F20400EAED5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF714BD524E3F20400EAED5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF714BD624E3F20400EAED5B /* RagnarokMacOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RagnarokMacOS.entitlements; sourceTree = "<group>"; };
+		EF714BDB24E3F20400EAED5B /* RagnarokMacOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RagnarokMacOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF714BDF24E3F20400EAED5B /* RagnarokMacOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RagnarokMacOSTests.swift; sourceTree = "<group>"; };
+		EF714BE124E3F20400EAED5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF714BE624E3F20400EAED5B /* RagnarokMacOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RagnarokMacOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF714BEA24E3F20500EAED5B /* RagnarokMacOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RagnarokMacOSUITests.swift; sourceTree = "<group>"; };
+		EF714BEC24E3F20500EAED5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EFC2B69F24BA5805007DCC8F /* Ragnarok.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ragnarok.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFC2B6A224BA5805007DCC8F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EFC2B6A624BA5805007DCC8F /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -52,6 +87,27 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		EF714BC424E3F20300EAED5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF714BD824E3F20400EAED5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF714BE324E3F20400EAED5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EFC2B69C24BA5805007DCC8F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -111,12 +167,47 @@
 			path = Launchscreen;
 			sourceTree = "<group>";
 		};
+		EF714BC824E3F20300EAED5B /* RagnarokMacOS */ = {
+			isa = PBXGroup;
+			children = (
+				EF714BC924E3F20300EAED5B /* AppDelegate.swift */,
+				EF714BCB24E3F20300EAED5B /* ViewController.swift */,
+				EF714BD024E3F20400EAED5B /* Assets.xcassets */,
+				EF714BD224E3F20400EAED5B /* Main.storyboard */,
+				EF714BD524E3F20400EAED5B /* Info.plist */,
+				EF714BD624E3F20400EAED5B /* RagnarokMacOS.entitlements */,
+				EF714BCD24E3F20300EAED5B /* RagnarokMacOS.xcdatamodeld */,
+			);
+			path = RagnarokMacOS;
+			sourceTree = "<group>";
+		};
+		EF714BDE24E3F20400EAED5B /* RagnarokMacOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF714BDF24E3F20400EAED5B /* RagnarokMacOSTests.swift */,
+				EF714BE124E3F20400EAED5B /* Info.plist */,
+			);
+			path = RagnarokMacOSTests;
+			sourceTree = "<group>";
+		};
+		EF714BE924E3F20500EAED5B /* RagnarokMacOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF714BEA24E3F20500EAED5B /* RagnarokMacOSUITests.swift */,
+				EF714BEC24E3F20500EAED5B /* Info.plist */,
+			);
+			path = RagnarokMacOSUITests;
+			sourceTree = "<group>";
+		};
 		EFC2B69624BA5805007DCC8F = {
 			isa = PBXGroup;
 			children = (
 				EFC2B6A124BA5805007DCC8F /* Ragnarok */,
 				EFC2B6B824BA5809007DCC8F /* RagnarokTests */,
 				EFC2B6C324BA5809007DCC8F /* RagnarokUITests */,
+				EF714BC824E3F20300EAED5B /* RagnarokMacOS */,
+				EF714BDE24E3F20400EAED5B /* RagnarokMacOSTests */,
+				EF714BE924E3F20500EAED5B /* RagnarokMacOSUITests */,
 				EFC2B6A024BA5805007DCC8F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -127,6 +218,9 @@
 				EFC2B69F24BA5805007DCC8F /* Ragnarok.app */,
 				EFC2B6B524BA5809007DCC8F /* RagnarokTests.xctest */,
 				EFC2B6C024BA5809007DCC8F /* RagnarokUITests.xctest */,
+				EF714BC724E3F20300EAED5B /* RagnarokMacOS.app */,
+				EF714BDB24E3F20400EAED5B /* RagnarokMacOSTests.xctest */,
+				EF714BE624E3F20400EAED5B /* RagnarokMacOSUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -163,6 +257,59 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		EF714BC624E3F20300EAED5B /* RagnarokMacOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF714BF324E3F20500EAED5B /* Build configuration list for PBXNativeTarget "RagnarokMacOS" */;
+			buildPhases = (
+				EF714BC324E3F20300EAED5B /* Sources */,
+				EF714BC424E3F20300EAED5B /* Frameworks */,
+				EF714BC524E3F20300EAED5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RagnarokMacOS;
+			productName = RagnarokMacOS;
+			productReference = EF714BC724E3F20300EAED5B /* RagnarokMacOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF714BDA24E3F20400EAED5B /* RagnarokMacOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF714BF424E3F20500EAED5B /* Build configuration list for PBXNativeTarget "RagnarokMacOSTests" */;
+			buildPhases = (
+				EF714BD724E3F20400EAED5B /* Sources */,
+				EF714BD824E3F20400EAED5B /* Frameworks */,
+				EF714BD924E3F20400EAED5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF714BDD24E3F20400EAED5B /* PBXTargetDependency */,
+			);
+			name = RagnarokMacOSTests;
+			productName = RagnarokMacOSTests;
+			productReference = EF714BDB24E3F20400EAED5B /* RagnarokMacOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF714BE524E3F20400EAED5B /* RagnarokMacOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF714BF524E3F20500EAED5B /* Build configuration list for PBXNativeTarget "RagnarokMacOSUITests" */;
+			buildPhases = (
+				EF714BE224E3F20400EAED5B /* Sources */,
+				EF714BE324E3F20400EAED5B /* Frameworks */,
+				EF714BE424E3F20400EAED5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF714BE824E3F20500EAED5B /* PBXTargetDependency */,
+			);
+			name = RagnarokMacOSUITests;
+			productName = RagnarokMacOSUITests;
+			productReference = EF714BE624E3F20400EAED5B /* RagnarokMacOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		EFC2B69E24BA5805007DCC8F /* Ragnarok */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = EFC2B6C924BA5809007DCC8F /* Build configuration list for PBXNativeTarget "Ragnarok" */;
@@ -222,10 +369,21 @@
 		EFC2B69724BA5805007DCC8F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1150;
+				LastSwiftUpdateCheck = 1160;
 				LastUpgradeCheck = 1150;
 				ORGANIZATIONNAME = "Bezaleel Ashefor";
 				TargetAttributes = {
+					EF714BC624E3F20300EAED5B = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					EF714BDA24E3F20400EAED5B = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = EF714BC624E3F20300EAED5B;
+					};
+					EF714BE524E3F20400EAED5B = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = EF714BC624E3F20300EAED5B;
+					};
 					EFC2B69E24BA5805007DCC8F = {
 						CreatedOnToolsVersion = 11.5;
 					};
@@ -255,11 +413,37 @@
 				EFC2B69E24BA5805007DCC8F /* Ragnarok */,
 				EFC2B6B424BA5809007DCC8F /* RagnarokTests */,
 				EFC2B6BF24BA5809007DCC8F /* RagnarokUITests */,
+				EF714BC624E3F20300EAED5B /* RagnarokMacOS */,
+				EF714BDA24E3F20400EAED5B /* RagnarokMacOSTests */,
+				EF714BE524E3F20400EAED5B /* RagnarokMacOSUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		EF714BC524E3F20300EAED5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF714BD124E3F20400EAED5B /* Assets.xcassets in Resources */,
+				EF714BD424E3F20400EAED5B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF714BD924E3F20400EAED5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF714BE424E3F20400EAED5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EFC2B69D24BA5805007DCC8F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -287,6 +471,32 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		EF714BC324E3F20300EAED5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF714BCC24E3F20300EAED5B /* ViewController.swift in Sources */,
+				EF714BCA24E3F20300EAED5B /* AppDelegate.swift in Sources */,
+				EF714BCF24E3F20300EAED5B /* RagnarokMacOS.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF714BD724E3F20400EAED5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF714BE024E3F20400EAED5B /* RagnarokMacOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF714BE224E3F20400EAED5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF714BEB24E3F20500EAED5B /* RagnarokMacOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EFC2B69B24BA5805007DCC8F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -316,6 +526,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		EF714BDD24E3F20400EAED5B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF714BC624E3F20300EAED5B /* RagnarokMacOS */;
+			targetProxy = EF714BDC24E3F20400EAED5B /* PBXContainerItemProxy */;
+		};
+		EF714BE824E3F20500EAED5B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF714BC624E3F20300EAED5B /* RagnarokMacOS */;
+			targetProxy = EF714BE724E3F20500EAED5B /* PBXContainerItemProxy */;
+		};
 		EFC2B6B724BA5809007DCC8F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = EFC2B69E24BA5805007DCC8F /* Ragnarok */;
@@ -329,6 +549,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		EF714BD224E3F20400EAED5B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF714BD324E3F20400EAED5B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
 		EFC2B6A824BA5805007DCC8F /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -348,6 +576,140 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		EF714BED24E3F20500EAED5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = RagnarokMacOS/RagnarokMacOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = KPGYDGPJU8;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = RagnarokMacOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ephod.ragnarokosx.RagnarokMacOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		EF714BEE24E3F20500EAED5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = RagnarokMacOS/RagnarokMacOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = KPGYDGPJU8;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = RagnarokMacOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ephod.ragnarokosx.RagnarokMacOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		EF714BEF24E3F20500EAED5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = KPGYDGPJU8;
+				INFOPLIST_FILE = RagnarokMacOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ephod.ragnarokosx.RagnarokMacOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RagnarokMacOS.app/Contents/MacOS/RagnarokMacOS";
+			};
+			name = Debug;
+		};
+		EF714BF024E3F20500EAED5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = KPGYDGPJU8;
+				INFOPLIST_FILE = RagnarokMacOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ephod.ragnarokosx.RagnarokMacOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RagnarokMacOS.app/Contents/MacOS/RagnarokMacOS";
+			};
+			name = Release;
+		};
+		EF714BF124E3F20500EAED5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = KPGYDGPJU8;
+				INFOPLIST_FILE = RagnarokMacOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ephod.ragnarokosx.RagnarokMacOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = RagnarokMacOS;
+			};
+			name = Debug;
+		};
+		EF714BF224E3F20500EAED5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = KPGYDGPJU8;
+				INFOPLIST_FILE = RagnarokMacOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ephod.ragnarokosx.RagnarokMacOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = RagnarokMacOS;
+			};
+			name = Release;
+		};
 		EFC2B6C724BA5809007DCC8F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -587,6 +949,33 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		EF714BF324E3F20500EAED5B /* Build configuration list for PBXNativeTarget "RagnarokMacOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF714BED24E3F20500EAED5B /* Debug */,
+				EF714BEE24E3F20500EAED5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF714BF424E3F20500EAED5B /* Build configuration list for PBXNativeTarget "RagnarokMacOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF714BEF24E3F20500EAED5B /* Debug */,
+				EF714BF024E3F20500EAED5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF714BF524E3F20500EAED5B /* Build configuration list for PBXNativeTarget "RagnarokMacOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF714BF124E3F20500EAED5B /* Debug */,
+				EF714BF224E3F20500EAED5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		EFC2B69A24BA5805007DCC8F /* Build configuration list for PBXProject "Ragnarok" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -624,6 +1013,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EF714BCD24E3F20300EAED5B /* RagnarokMacOS.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EF714BCE24E3F20300EAED5B /* RagnarokMacOS.xcdatamodel */,
+			);
+			currentVersion = EF714BCE24E3F20300EAED5B /* RagnarokMacOS.xcdatamodel */;
+			path = RagnarokMacOS.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = EFC2B69724BA5805007DCC8F /* Project object */;
 }
